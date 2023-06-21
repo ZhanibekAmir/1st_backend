@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+
+<a href="/mainpage">link for mainpage</a>
+
+{% if user.age > 5%}
+     Мне больше Пяти
+{% else %}
+     Мне меньше пяти
+{% endif %}
+{% endblock %}
